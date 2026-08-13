@@ -34,7 +34,8 @@ entity.dying_explosion = nil
 entity.crafting_speed = 1 -- 0.25 worse than the assembling machine 3
 
 local module_slots_setting = settings.startup[mod_name .. "-module-slots"]
-entity.module_slots = math.max(1, module_slots_setting and module_slots_setting.value or 1)
+entity.module_specification = entity.module_specification or {}
+entity.module_specification.module_slots = math.max(1, module_slots_setting and module_slots_setting.value or 1)
 
 entity.icons_positioning = {
   {inventory_index = defines.inventory.assembling_machine_modules, shift = {0, 1.5}, scale = 0.75},
