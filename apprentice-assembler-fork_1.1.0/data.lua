@@ -47,7 +47,7 @@ item.name = mod_name
 item.icon = gravity_assembler.icon
 item.order = "d[apprentice-assembler]"
 item.stack_size = 10
-item.weight = 100*kg
+item.weight = 150*kg
 
 entity.minable.result = item.name
 item.place_result = entity.name
