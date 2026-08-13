@@ -103,6 +103,12 @@ end
 
 data:extend{entity, item, recipe, technology}
 
+data:extend{{
+  type = "custom-input",
+  name = mod_prefix .. "pat-pat",
+  key_sequence = "P",
+}}
+
 local beacon_interface = table.deepcopy(data.raw["beacon"]["beacon-interface--beacon-tile"])
 beacon_interface.name = mod_prefix .. "beacon-interface"
 data:extend{beacon_interface}
