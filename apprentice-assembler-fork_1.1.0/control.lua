@@ -140,7 +140,7 @@ local function finished_crafting(struct)
     struct.working = true
     reset_offering_2(struct)
     local idle_for = game.tick - struct.last_idle_at
-    struct.products_finished = math.max(0, struct.products_finished - idle_for / 3) -- lose 20% for each second of activity 
+    struct.products_finished = math.max(0, struct.products_finished - idle_for / 120) -- lose 20% for each 2 second of inactivity 
   end
 
   if 500 > struct.products_finished then
