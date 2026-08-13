@@ -1,0 +1,13 @@
+{
+  "name": "Age-of-Production-patch-by-Brolks",
+  "version": "1.0.0",
+  "title": "Age of Production Patch by Brolks",
+  "author": "Brolks",
+  "description": "Applies Brolks/friend balancing and category changes on top of Age of Production 2.0.10.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.41",
+    "space-age >= 2.0.41",
+    "Age-of-Production >= 2.0.10"
+  ]
+}

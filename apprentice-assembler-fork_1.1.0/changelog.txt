@@ -1,0 +1,64 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2025. 03. 28
+  Info:
+    - Require science packs instead of only time
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2025. 02. 06
+  Info:
+    - Rely on beacon interface for indestructible invisible beacons
+    - Revert beacon interface being indestructible by default
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2025. 02. 02
+  Info:
+    - Stash thumbnail parts
+    - Nil the next_upgrade to be sure
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025. 02. 01
+  Info:
+    - Re-add entity description
+    - Decrease speed each tick whilst not crafting
+    - Keep speed upon stopping, but lose 20% per second
+    - Do reset the effects for visual reasons
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2025. 02. 01
+  Info:
+    - Update thumbnail
+    - Update technology icon
+    - Keep an internal products_finished counter
+    - Fix the machine not always resetting properly
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025. 02. 01
+  Info:
+    - Give it its own (free to research) technology node
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025. 02. 01
+  Info:
+    - Mod portal release
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2025. 02. 01
+  Info:
+    - Cleanup wrapper
+    - Disable fluid crafting
+    - Update readme
+    - Set default recipe finished & working signals
+    - Setup the hidden surface with two inserters
+    - Add item and recipe
+    - Hook up the beacon interface
+    - Optimize beacon interface calls
+    - Explain the current cap
+    - Add thumbnail
+    - Note machine quality
+    - Module positioning
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2025. 02. 01
+  Info:
+    - Initial commit

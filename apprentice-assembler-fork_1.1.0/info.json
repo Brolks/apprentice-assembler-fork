@@ -1,0 +1,26 @@
+{
+    "name": "apprentice-assembler-fork",
+    "title": "Apprentice assembler (Fork)",
+    "description": "Maintained fork. Crafting speed increases by 1% for each completed craft, then slowly decays while idle. Module slots were reduced from 4 to 1 by default, but you can choose your preferred amount in startup settings.",
+
+    "version": "1.1.0",
+    "author": "Brolks (original mod by Quezler)",
+    "factorio_version": "2.0",
+
+    "quality_required": false,
+    "rail_bridges_required": false,
+    "space_travel_required": false,
+    "spoiling_required": false,
+    "freezing_required": false,
+    "segmented_units_required": false,
+    "expansion_shaders_required": false,
+
+    "dependencies": [
+        "? newsletter-for-mods-made-by-quezler",
+
+        "base",
+        "? space-age",
+
+        "beacon-interface >= 1.0.17"
+    ]
+}
