@@ -1,10 +1,15 @@
----------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2026. 09. 10
   Info:
     - Reduce excessive speed effect updates by skipping unchanged states
     - Increase boost in larger steps to lower per-second entity churn
     - Keep the ramp-up/idle behavior while reducing game load
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2026. 08. 14
+  Info:
+    - Pull latest locale updates from repository contributors
+    - Prepare new release archive
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.6
 Date: 2025. 03. 28
