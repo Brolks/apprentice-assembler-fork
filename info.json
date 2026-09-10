@@ -1,0 +1,26 @@
+{
+    "name": "apprentice-assembler-fork",
+    "title": "Apprentice assembler (Fork)",
+    "description": "I found this mod, loved the idea, and updated it because the original is no longer maintained. Speed ramps by 1% per completed craft, decays while idle, and module slots are 1 by default (configurable in startup settings; original value was 4).",
+
+    "version": "1.2.0",
+    "author": "Brolks (original mod by Quezler)",
+    "factorio_version": "2.0",
+
+    "quality_required": false,
+    "rail_bridges_required": false,
+    "space_travel_required": false,
+    "spoiling_required": false,
+    "freezing_required": false,
+    "segmented_units_required": false,
+    "expansion_shaders_required": false,
+
+    "dependencies": [
+        "? newsletter-for-mods-made-by-quezler",
+
+        "base",
+        "? space-age",
+
+        "beacon-interface >= 1.0.17"
+    ]
+}
